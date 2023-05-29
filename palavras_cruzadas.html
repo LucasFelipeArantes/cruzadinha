@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0;">
+
+    <div class="inputs">
+        <input style="height: 15px; width: 15px;" id="input7_linha1">
+        <input style="height: 15px; width: 15px;" id="input7_linha2">
+    </div>
+
+    <div class="perguntas">
+        <div class="container">
+            <p>Dicas</p>
+        </div>
+
+        <div class="coluna1">
+            <span>1- Também conhecida como processador</span> <br> <br>
+            <span>2- É um circuito digital que realiza operações</span> <br> <br>
+            <span>3- É a memória dentro da própria CPU que armazena bits</span> <br> <br>
+            <span>4- Guardar temporariamente toda a informação que o computador precisa</span> <br> <br>
+            <span>5- Permite a gravação de dados uma única vez, não sendo possível apagar</span> <br> <br>
+            <span>6- Armazenar as informações, para serem recuperadas e utilizadas posteriormente</span> <br> <br>
+            <span>7- Tecnologia de armazenamento de dados que usa uma memória não volátil</span> <br> <br>
+            <span>8- Tem como função armazenar grandes quantidades de informações. Os dados <br>
+                <span>armazenados nas memórias de massa não são perdidos quando desligamos o
+                    equipamento</span></span> <br> <br>
+            <span>9- É o método que permite que um dispositivo envie ou receba dados diretamente da memória <br>
+                <span> principal. Copia um bloco de de memória de um dispositivo para outro</span></span> <br> <br>
+            <span>10- é o nome de uma linha de controle em eletrônica digital usada para selecionar um dos <br>
+                <span> circuitos integrados entre vários conectados ao mesmo barramento de computador </span> </span>
+            <br> <br>
+        </div>
+
+        <div class="coluna2">
+
+            <span>11- Indica o local onde os processos devem ser extraídos e para onde devem ser enviados após o
+                processamento </span> <br> <br>
+            <span>12- Sistema dentro de um computador ou dispositivo, consistindo de um conector ou conjunto de
+                fios, que fornece transporte para dados </span> <br> <br>
+            <span>13- Tem como fabricante a Intel, inicio da sua produção em 2009, principais características
+                frequencia de atuação 2660 MHz</span> <br> <br>
+            <span>14- Tem como fabricante a intel, inicio da sua produção em 2008 até o momento. Frequencia de
+                atuação até 5100Mhz</span> <br> <br>
+            <span>15- Processador com dois núcleos</span> <br> <br>
+            <span>16- Processador com quatro núcleos</span> <br> <br>
+            <span>17- Representa uma ordem de execução, com instruções encadeadas que são desempenhadas uma por
+                vez.</span> <br> <br>
+            <span>18- É um componente de dispositivo que atua como um processo temporário e permite ao processador
+                recuperar dados mais rapidamente.</span> <br> <br>
+        </div>
+
+        <button onclick="verificar()">Verificar Respostas</button>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+    function verificar(){
+        if(input7_linha1.value == "a" || input7_linha1.value == "A"){
+            var element = document.getElementById("input7_linha1");
+            element.classList.add("input_certa");
+        }
+        else {
+            var element = document.getElementById("input7_linha1");
+            element.classList.add("input_errada");
+        }
+    }   
+</script>
