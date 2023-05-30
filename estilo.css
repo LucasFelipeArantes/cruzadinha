@@ -105,11 +105,11 @@ h1{
 }
 
 .input_certa{
-    border: 2px solid;
+    border: 1.5px solid;
     border-color: lightgreen;
 }
 
 .input_errada{
-    border: 2px solid;
+    border: 1.5px solid;
     border-color: red;
 }
