@@ -106,7 +106,7 @@ h1{
 
 .input_certa{
     border: 1.5px solid;
-    border-color: lightgreen;
+    border-color: lightgreen !important;
 }
 
 .input_errada{
